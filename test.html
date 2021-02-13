@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="test.js"></script>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<header>
+   <h1>shopping cart </h1> 
+</header><br> <br><br><br><br>
+<main>
+
+
+    <br><br>
+
+    </div>
+    <div class="parent1">
+        
+
+
+        <div class="enfant">
+          <div>  <img id="image2" onclick="changeimage2()" src="aime1.2.png" width="50px" height="50px"></div>
+         
+           <div> <img src="https://informatica.tn/6721/pc-portable-lenovo-l3-i5-10210u156hd8gb1tb-grey-ref-81y300eqfg.jpg" width="300" height="300"><br>
+           <div>
+            <label><b>Total price PC</b></label>
+            <input name="tot_amount" id="tot_amount" type="number" readonly>
+            <strong> Quantite : </strong> <input type="number" id="a" min="0" onchange="calculateAmount(this.value)" required>
+            <button onclick="myFunction1()" >+</button>
+            <button onclick="myFunction2()">-</button>
+        
+        </div>
+
+        </div>
+           
+        </div>
+        
+        <div class="enfant">
+            <img id="image1" onclick="changeimage1()" src="aime1.png" width="50px" height="50px">
+
+            <div><img src="https://upload.wikimedia.org/wikipedia/commons/2/22/3-Tasten-Maus_Microsoft.jpg" width="300" height="300">
+                <div>
+                    <label><b>Total price Souris</b></label>
+                    <input name="tot_amount_s" id="tot_amount_s" type="number" readonly>
+                     <strong> Quantite : </strong> <input type="number" id="b" min="0" onchange="calculateAmount2(this.value)" required>
+                    <button onclick="myFunction3()">+</button>
+                    <button onclick="myFunction4()">-</button>
+                
+                </div>
+                   
+            
+            
+            </div>
+           
+        </div>
+
+        <div class="enfant">
+        <div>    <img id="image3" onclick="changeimage3()" src="aime1.3.png" width="50px" height="50px"></div>
+           <div> <img src="https://www.lenovo.com/medias/4X30M86890-01-500x400.png?context=bWFzdGVyfHJvb3R8MTgxODE5fGltYWdlL3BuZ3xoODEvaDk0LzExMDgwMTc0NTAxOTE4LnBuZ3xlZjRhMjk1YmNhZTE2ZmJhZTdiYjcwZDZmNzVjMmVkYzQ2MzIwY2U5NWU5MDFmNzA3NzA5YzdmZTY1OTQ2MWIw" width="300" height="300">
+            
+            <div>
+                <label><b>Total price clavier </b></label>
+                <input name="tot_amount_c" id="tot_amount_c" type="number" readonly>
+                <strong> Quantite : </strong> <input type="number" id="c" min="0"  onchange="calculateAmount3(this.value)"  required>
+                <button onclick="myFunction5()">+</button>
+                <button onclick ="myFunction6()">-</button>
+            
+            </div>
+        
+        </div>
+        </div>
+
+
+        <div>
+            <h1>calculate prices</h1>
+            <label id="answer"></label>
+            <br><br><br><br><br><br><br><br><br><br>
+            <button onclick="calculate()">Calculate total prices </button>
+        </div>
+
+
+</main>
+</body>
+
+</html>

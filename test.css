@@ -1,0 +1,50 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.enfant{
+
+    width: 50px;
+    height: 50px;
+    margin-right: 2%;
+    border-radius: 5%;
+    width:300px;
+    height:350px;
+    background-color:rgb(241, 238, 238);
+
+  }
+  .parent1 {
+    text-align: center;
+  box-shadow:yellow;
+  display:flex;
+  justify-content:center;
+}
+header{
+
+    text-align: center;
+    background-color: rgb(22, 22, 187);
+    width: 100%;
+    margin-top: -25px;
+    margin-right: -5;
+    margin-left: 0px;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgb(128, 129, 211);
+}
+label{
+background-color: rgb(22, 142, 179);
+}
+input{
+    color: rgb(0, 0, 0);
+    background-color: rgb(146, 135, 135);
+    text-align: center;
+    border: royalblue;
+}
+strong{
+    background-color: rgb(22, 142, 179);
+
+}
+
